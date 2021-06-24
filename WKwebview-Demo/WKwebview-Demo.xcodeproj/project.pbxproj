@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3710D5B82678A5F50075C48D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710D5B72678A5F50075C48D /* AppDelegate.swift */; };
 		3710D5BA2678A5F50075C48D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710D5B92678A5F50075C48D /* SceneDelegate.swift */; };
-		3710D5BC2678A5F50075C48D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710D5BB2678A5F50075C48D /* ViewController.swift */; };
+		3710D5BC2678A5F50075C48D /* WKWebVIewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710D5BB2678A5F50075C48D /* WKWebVIewViewController.swift */; };
 		3710D5BF2678A5F50075C48D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3710D5BD2678A5F50075C48D /* Main.storyboard */; };
 		3710D5C12678A5F80075C48D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3710D5C02678A5F80075C48D /* Assets.xcassets */; };
 		3710D5C42678A5F80075C48D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3710D5C22678A5F80075C48D /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 		3710D5B42678A5F50075C48D /* WKwebview-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WKwebview-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3710D5B72678A5F50075C48D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3710D5B92678A5F50075C48D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3710D5BB2678A5F50075C48D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3710D5BB2678A5F50075C48D /* WKWebVIewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebVIewViewController.swift; sourceTree = "<group>"; };
 		3710D5BE2678A5F50075C48D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3710D5C02678A5F80075C48D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3710D5C32678A5F80075C48D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 			children = (
 				3710D5B72678A5F50075C48D /* AppDelegate.swift */,
 				3710D5B92678A5F50075C48D /* SceneDelegate.swift */,
-				3710D5BB2678A5F50075C48D /* ViewController.swift */,
+				3710D5BB2678A5F50075C48D /* WKWebVIewViewController.swift */,
 				3710D5BD2678A5F50075C48D /* Main.storyboard */,
 				3710D5C02678A5F80075C48D /* Assets.xcassets */,
 				3710D5C22678A5F80075C48D /* LaunchScreen.storyboard */,
@@ -258,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3710D5BC2678A5F50075C48D /* ViewController.swift in Sources */,
+				3710D5BC2678A5F50075C48D /* WKWebVIewViewController.swift in Sources */,
 				3710D5B82678A5F50075C48D /* AppDelegate.swift in Sources */,
 				3710D5BA2678A5F50075C48D /* SceneDelegate.swift in Sources */,
 			);
@@ -436,15 +436,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73Y9G8QD3H;
 				INFOPLIST_FILE = "WKwebview-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.58.fcc.WKwebview-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.58.fcc.Demo3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,15 +458,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73Y9G8QD3H;
 				INFOPLIST_FILE = "WKwebview-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.58.fcc.WKwebview-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.58.fcc.Demo3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
